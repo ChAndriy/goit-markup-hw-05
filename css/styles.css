@@ -625,24 +625,24 @@ transition: fill var(--transition)
   .check-box{
     margin-bottom: 24px;
   }
-  .input-checkbox:checked + .chec-span{
+  .input-checkbox:checked ~ .chec-text .chec-span{
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD; 
-
-   
   }
   .chec-text{
     font-size: 12px; 
     line-height: 1.17; 
     letter-spacing: 0.04em; 
     color:#8e8f99;
+    
     }
     .chec-span{
       display: inline-flex;
       align-items: center; 
       justify-content: center; 
       fill: transparent; 
+      margin-right: 8px;
       width: 16px;
       height: 16px; 
       border: 1px solid rgba(46, 47, 66, 0.4);
