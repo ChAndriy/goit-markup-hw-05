@@ -445,7 +445,7 @@
               type="text"
               name="user-name"
               class="modal-input"
-              placeholder=""
+              
             />
             <svg class="modal-input-svg" width="18" height="24">
               <use href="./images/icons.svg#icon-person-black"></use>
@@ -472,10 +472,10 @@
           
           <div class="modal-sec-input">
             <input
+            id="user-name"
               type="email"
               name="user-name"
-              class="modal-input"
-              placeholder=""
+              class="modal-input"              
             />
             <svg class="modal-input-svg" width="18" height="24">
               <use href="./images/icons.svg#icon-email-black"></use>
@@ -494,6 +494,13 @@
             ></textarea>
           </div>
           <div class="check-box">
+            <input
+              type="checkbox"
+              class="input-checkbox visually-hidden"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
             <label for="user-privacy" class="chec-text">
               I accept the terms and conditions of the
               <a class="chec-link" href=""> Privacy Policy</a
@@ -503,13 +510,7 @@
                 </svg>
               </span>
             </label>
-            <input
-              type="checkbox"
-              class="input-checkbox visually-hidden"
-              name="user-privacy"
-              id="user-privacy"
-              value="true"
-            />
+            
           </div>
           <button type="submit" class="modal-sec-btn">Send</button>
         </form>

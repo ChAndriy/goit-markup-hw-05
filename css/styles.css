@@ -560,7 +560,7 @@ margin-bottom: 16px;
 color: #8E8F99;
 font-size: 12px;
 line-height: 1.17;
-letter-spacing: 0.04px;
+letter-spacing: 0.04em; ;
 margin-bottom: 4px;
 }
 
@@ -611,7 +611,7 @@ transition: fill var(--transition)
   line-height: 1.17; 
   letter-spacing: 0.04em; 
   color: rgba(46, 47, 66, 0.4); 
-  border: 1px solid rgba(46, 47, 66, 0.4)
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
   padding: 8px 16px; 
@@ -625,7 +625,7 @@ transition: fill var(--transition)
   .check-box{
     margin-bottom: 24px;
   }
-  .input-checkbox:checked .chec-span{
+  .input-checkbox:checked + .chec-span{
     background-color: #404bbf; 
     border: none; 
     fill: #F4F4FD; 
